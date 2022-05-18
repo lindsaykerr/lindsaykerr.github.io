@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">    
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Lindsay Kerr">
+<meta name="description" content="Home page for Lindsay's dev space, links to personal blog and GitHub repos.">
+<meta name="keywords" content="GitHub, Coding, blog, javascript, python, software development ">
+<title>Hello World! - Lindsay's dev space</title>
+<link rel="stylesheet" href="/assets/css/main.css">
+
+    <title>Lindsay's dev spacefoo</title>
+</head>
+<body id="front-page">
+    <header>
+
+    <nav class="main-nav">
+        <div class="site-logo">
+            <a href="http://localhost:4000">Lindsay's Dev Space</a>
+        </div>
+        <div class="site-links">
+            <a href="/blog" class="">blog</a> 
+            | <a href="/demos" class="" >demos</a>
+        </div>
+    </nav>   
+</header>
+
+    <div class="center-col">
+     
+        <main class="page">    
+            <header>
+                <div class="pic-title">
+                    <div class="profile">
+    <img src="http://localhost:4000/assets/images/profile/profilepic.jpg" alt="Profile image" />
+   
+</div>
+  
+                    <div class="front-title">Hello World!</div>
+                </div>
+            </header>
+            <p>I am a software developer based in Scotland who has been coding off and on personal projects for the past 15 years. It has only been in the last two (time of writing, 2022), after I achieved a BSc in the field, that I have directed most of my attention towards the art of coding. Before this, I was an avid artist. I enjoy coding for the very same reasons I enjoy creating art, the creative process, using one’s imagination and the fun of coming up with solutions.</p>
+
+<p>This dev space is all about me tinkering, testing and considering code. Hopefully with a bit of art mixed in. I am on <a href="https://twitter.com/kerr_linz">Twitter</a>.</p>
+
+<section class="post-list">
+<h2><a href="/blog">Blog</a> / recent posts</h2>
+<div class="container">
+
+    <article class="item">
+        <a href="/2021/09/03/should-beginners-learn-javascript.html">
+        
+        <div class="title">Should beginners learn JavaScript?</div> 
+        <span class="b">I considered this question a while back after going through a period of refamiliarising with JS (...
+        </span>
+        </a>
+    </article>
+
+    <article class="item">
+        <a href="/2021/03/21/why-programming-languages-die.html">
+        
+            <figure>
+                <img src="/assets/images/posts/rip.jpg" alt="image of a gravestone" />
+            </figure>
+        
+        <div class="title">Why Programming Languages Die</div> 
+        <span class="b">
+    
+
+
+Hundreds, maybe even thousands of programming languages have existed since the days of th...
+        </span>
+        </a>
+    </article>
+
+
+</div>
+</section>
+
+<section id="projects">
+    <h2>Current Projects and Archived projects</h2>
+    
+        <article class="project">
+            <header>
+            <h3>Priority List web app</h3>
+            <div class="meta"> 
+                <span class="project-status">
+                     
+                        <span class="active">Active</span>
+                    
+                </span> 
+                <span class="project-yearspan">(2022)</span>
+                <span class="project-tech">Tech: JavaScript</span>
+            </div>
+            <a href="https://github.com/wrenzenzen/priority-list-app">https://github.com/wrenzenzen/priority-list-app</a>
+        </header>
+        <p>Built with vanilla JS. This web app allows a user to assign a task to a priority list. If the user finishes a task they can click on the complete tick, if the task is no longer required the user can click on the minus sign. Each task shows a countdown, when it gets to zero the task is automatically removed from the list. The colour of the task represents the priority level. Tasks are eventually assigned a status of either unfinished or complete. The state of the data is maintained by using the browser’s internal database system Indexeddb.</p>
+
+<p><img src="/assets/images/repo/priority-list.png" alt="&quot;Priority List Web App&quot;" /></p>
+
+        </article>
+    
+        <article class="project">
+            <header>
+            <h3>A simple React.js calculator</h3>
+            <div class="meta"> 
+                <span class="project-status">
+                     
+                        <span class="inactive">Archived</span>
+                    
+                </span> 
+                <span class="project-yearspan">(2021-2022)</span>
+                <span class="project-tech">Tech: ReactJs, TypeScript, CSS</span>
+            </div>
+            <a href="https://github.com/wrenzenzen/simple-calculator-project">https://github.com/wrenzenzen/simple-calculator-project</a>
+        </header>
+        <p>A simple React.js/Typescript calculator project. A project which I used as a way to get familiar with Reactjs and TypeScript. It allowed me to investigate how data and business logic can be integrated into the React workflow. From this, I gained a better understanding of the fundamentals of Reactjs.</p>
+
+<p><img src="/assets/images/repo/react-calc.png" alt="&quot;Reactjs Calculator&quot;" /></p>
+
+        </article>
+    
+        <article class="project">
+            <header>
+            <h3>Python script for deleting copies of files</h3>
+            <div class="meta"> 
+                <span class="project-status">
+                     
+                        <span class="inactive">Archived</span>
+                    
+                </span> 
+                <span class="project-yearspan">(2021-2022)</span>
+                <span class="project-tech">Tech: Python</span>
+            </div>
+            <a href="https://github.com/wrenzenzen/python-delete-file-duplications">https://github.com/wrenzenzen/python-delete-file-duplications</a>
+        </header>
+        <p>The intended use for this script is under unique circumstances. When a large number of files have been copied unintentionally. The user may then wants to remove the copies whilst keeping the original files intact, they can run this script. The script does not perform any deep checks on file equality, and simply checks the file name for the common operating system prefixes and postfixes assigned to copies. It should be noted by the user that the script will also delete files that have been copied and then altered.</p>
+
+        </article>
+    
+        <article class="project">
+            <header>
+            <h3>Game of Life Simulator</h3>
+            <div class="meta"> 
+                <span class="project-status">
+                     
+                        <span class="inactive">Archived</span>
+                    
+                </span> 
+                <span class="project-yearspan">(2021)</span>
+                <span class="project-tech">Tech: Python</span>
+            </div>
+            <a href="https://github.com/wrenzenzen/game-of-life-simulation">https://github.com/wrenzenzen/game-of-life-simulation</a>
+        </header>
+        <p>This project started as a programming exercise for implementing Conway’s game of life. The first implementation ran in the command terminal. I felt that this was cumbersome, especially when I needed to adjust the simulation parameters. This urge to improve the user experience pushed me to explore Python’s default GUI system, Tkinter.</p>
+
+<p><a href="https://youtu.be/cf8iwdvM-mA"><img src="https://img.youtube.com/vi/cf8iwdvM-mA/hqdefault.jpg" alt="Demo for the Game of Life" /></a></p>
+
+        </article>
+    
+        <article class="project">
+            <header>
+            <h3>Pong Clone</h3>
+            <div class="meta"> 
+                <span class="project-status">
+                     
+                        <span class="inactive">Archived</span>
+                    
+                </span> 
+                <span class="project-yearspan">(2020)</span>
+                <span class="project-tech">Tech: Java, JavaFx</span>
+            </div>
+            <a href="https://github.com/wrenzenzen/pong-clone">https://github.com/wrenzenzen/pong-clone</a>
+        </header>
+        <p>After leaving university, I needed to consolidate the knowledge I had acquired. I chose Pong as a project to do so. I used Java as it was the language I became familiar with during my studies. The resulting implementation was a bit crude as I had never investigated topics such as object collision detection or the correct math to use. Yet, the end albeit unfinished result, still performed well and fulfilled the intended aim of the project.</p>
+
+<p><a href="https://youtu.be/UjSKOGzGZ68"><img src="https://img.youtube.com/vi/UjSKOGzGZ68/hqdefault.jpg" alt="Pong Clone" /></a></p>
+
+        </article>
+    
+        <article class="project">
+            <header>
+            <h3>A RESTful Sensor Data Web Service </h3>
+            <div class="meta"> 
+                <span class="project-status">
+                     
+                        <span class="inactive">Archived</span>
+                    
+                </span> 
+                <span class="project-yearspan">(2020)</span>
+                <span class="project-tech">Tech: Python, Flask, MongoDB</span>
+            </div>
+            <a href="https://github.com/wrenzenzen/restful-sensor-data-web-service">https://github.com/wrenzenzen/restful-sensor-data-web-service</a>
+        </header>
+        <p>Project coded for my end of a University course project. I had set out to explore the viability of creating a functional web service solution. Functionally it could store IoT data and also be used to retrieve data for analysis. The original concept was for a general-purpose web service that could be modified and adapted for various purposes. The project worked well and recorded environmental data over several months, running on a Raspberry P</p>
+
+        </article>
+    
+</section>
+
+
+        </main>
+    </div>
+    <footer class="main-footer">
+    <div class="center-col">
+        <span class="copyright-notice">&copy;2022, by Lindsay Kerr</span> |
+        <span class="hosted-on">Hosted on <a href="https://github.com/">Github</a></span>
+        | Find me on <a href="https://twitter.com/kerr_linz" target="_blank">Twitter
+    </div>
+</footer>
+
+</body>
+</html>

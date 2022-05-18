@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Lindsay Kerr">
+<meta name="description" content="">
+<meta name="keywords" content="GitHub, Coding">
+<title>Should beginners learn JavaScript? - Lindsay's dev space</title>
+<link rel="stylesheet" href="/assets/css/main.css">
+
+  </head>
+  <body>
+    <header>
+
+    <nav class="main-nav">
+        <div class="site-logo">
+            <a href="http://localhost:4000">Lindsay's Dev Space</a>
+        </div>
+        <div class="site-links">
+            <a href="/blog" class="">blog</a> 
+            | <a href="/demos" class="" >demos</a>
+        </div>
+    </nav>   
+</header>
+
+    <div class="center-col">
+    <main class="post">
+      <header>
+        <h1>Should beginners learn JavaScript?</h1> 
+        <div class="date">
+          <time datetime="2021-09-03 00:00:00 +0100">3 September 2021</time>
+        </div>
+      </header>
+      <div class="content-wrapper">
+        <p>I considered this question a while back after going through a period of refamiliarising with JS (JavaScript). Coding in JS is nothing new to me, but considering what I know now would I advise someone who wants to begin their coding journey to start with JavaScript. I know when thinking back on my first encounter with JS, which was well over 10 years ago, was like fumbling about in a dark room while looking for a light switch. I had very little understanding of JavaScript’s nature, and how it was different from many other languages. I feel that this lack of understanding is all too common for JS beginners. It is likely one of the main reasons behind the love/hate sentiment that JS receives from the wider coding community. Back then I got by with writing small bits of functionality and relying on frameworks like jQuery, but I never took to the language I even had a strong disdain for it. Now I am a little wiser, older and I enjoy coding with it. I believe that for a person to really “get” this language they must first grasp certain core concepts. When they do, JS becomes enjoyable.
+<!--more--></p>
+
+<p>So back to the question, is it a good language for beginners? If I am to be honest, I would say it is not ideal, and if the person simply wants to learn the basics of programming then they should start with the likes of Python. I accept that “not ideal” is vague, however my observation of JS has led me to the conclusion that it’s a little quirky and deceptive as programming languages go. This might inhibit beginners as they progress. Even if the syntax appears remarkably similar to other languages, it is not a language that you can take at face value. Additionally, its approach to OOP (Object Orientated Programming) is a bit atypical as programming languages go. JS belongs to the group of prototype-based languages, while most other popular languages are class-based. So we approach the task of coding slightly differently, for those unaware of the differences it can lead them to some unexpected pitfalls down the road. I also feel that class-based languages are far easier for those new to the field to understand.</p>
+
+<h2 id="overall-there-are-two-points-that-js-beginners-should-grasp">Overall there are two points that JS beginners should grasp.</h2>
+
+<h3 id="js-execution-environment">JS execution environment</h3>
+
+<p>The first is having a high-level understanding of the single thread JS engine, its execution stack, its place in the environment (browser or server and their accompanying APIs) and how these all come together. Having this knowledge is beneficial for understanding the control flow of a script, essentially in what order the program executes. Someone new to programming may assume that code executes from one step to the next but this is not always the case. JS relies heavily on asynchronous functions to carry out certain tasks outside of the main thread. There are plenty of resources out there so I won’t delve further into these topics.</p>
+
+<h3 id="inheritance">Inheritance</h3>
+
+<p>The second point is understanding prototypal inheritance. Inheritance is the ability for something to inherit the properties and behaviours from another. Understanding how JS handles inheritance, even if it is at a high level, is probably the most important concept that anyone new to this language should learn.</p>
+
+<p>A clock can be used to describe the characteristics of inheritance. Imagine we want to create a clock, the clock has several behaviours, mainly it indicates the passing of time using seconds, minutes and hours. Now imagine that we want to refine the concept of the clock further, the clock can either be analogue or digital and each of these in turn can be further refined. We could have a digital wristwatch and digital wall clock derived from Digital Clock. Various types of analogue clocks can also be derived from Analogue Clock. This is the idea behind inheritance as a whole, passing down behaviours and properties, like a parent passing down traits to a child.</p>
+
+<h4 id="class-based">Class-based</h4>
+
+<p>The way class-based languages handle inheritance is as follows: In class-based inheritance we first define the (class)ification of a Clock, from this we can “extend” that classification to create a new one called Digital Clock, here we add new properties and or behaviours, and then we can further extend that classification to Digital Wristwatch. We say that Digital Wristwatch inherits behaviours and properties from the Digital Clock classification which in turn inherits behaviours and properties from the Clock classification. So now we have our classification of a Digital Wristwatch. This classification can be thought of as a blueprint from which we can make new Digital Wristwatch objects. To sum up, the process of class-based inheritance can be thought of as first making a blueprint using inheritance and then building a new object from the blueprint.</p>
+
+<h4 id="protoypal">Protoypal</h4>
+
+<p>Prototypal inheritance works a little differently. First, we just make an object and give it a name Clock, we then assign it properties and behaviours. We can also state which of these properties and behaviours can be inherited by other objects. If I want a Digital Clock then I must make another object and give it the name Digital Clock, at this time it is just a simple object. If I want it to use the same behaviour as Clock I must assign its prototype to be that of the Clock object, we have now formed a link between two objects. Properties and behaviours that are unique to a Digital clock can then be added. These steps can be repeated to create another object called Digital Wristwatch. So, we now have three objects linked together forming a chain. In JavaScript, this data structure is called a Prototype Chain and is a key concept behind the language. To sum up, prototype inheritance has the following steps: create an Object, then link it to another object. The object at the top of the chain will appear to inherit the behaviours from the objects lower down the chain. If a behaviour is called, JS will first search the top object and move down the chain until the base Object. How JS implements prototypal inheritance is a little more involved than the example given.
+This is a very, very simple way of looking at both types of inheritance. However, for beginners, it is important to make the difference clear.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>The main point for beginners to understand is that JS is a classless language. This fact may confuse some when they see modern JS syntax uses the word “class” to implement new objects. It also uses the word “extends” when there is a need for an inheritance link to be formed. Newcomers to the language must remember that these are simply syntactic fluff. By providing a familiar syntax of class-based languages JS makes life a little easier for those used to other languages. As I stated earlier JS can be deceptive and the syntax does not always reflect the truth of what’s going on underneath its prototypal hood which is why I do not think it’s a good language for a beginner.</p>
+
+      </div>
+    </main>
+    </div>
+    <footer class="main-footer">
+    <div class="center-col">
+        <span class="copyright-notice">&copy;2022, by Lindsay Kerr</span> |
+        <span class="hosted-on">Hosted on <a href="https://github.com/">Github</a></span>
+        | Find me on <a href="https://twitter.com/kerr_linz" target="_blank">Twitter
+    </div>
+</footer>
+  </body>
+</html>

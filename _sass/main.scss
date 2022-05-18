@@ -1,0 +1,33 @@
+@import 'colors';
+@import 'type/type';
+@import 'layout/layout';
+@import 'native';
+
+
+
+@media (min-width: 700px) {
+  * {
+    letter-spacing: 0.02em;
+    line-height: 1.5em;  
+    word-spacing: 0.08em; 
+  }
+  .pic-title {
+      float:left;    
+      margin-right: 10px;
+      margin-bottom: 10px;
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
