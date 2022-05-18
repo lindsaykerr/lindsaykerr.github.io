@@ -10,7 +10,7 @@ permalink: /blog/
   <article class="list-item">
     <header>
       <h3 class="title link"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <span class="date"><time datetime="{{post.date |  date: '%Y-%m-%d %H:%M'}}">{{post.date | date: "%-d %b %Y"}}</time></span>
+      <span class="date"><time datetime="{{post.date | date: '%Y-%m-%d %H:%M'}}">{{post.date | date: "%-d %b %Y"}}</time></span>
     </header>
     <div class="excerpt">
       {{ post.excerpt}}
