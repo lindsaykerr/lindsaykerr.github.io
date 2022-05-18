@@ -1,7 +1,7 @@
 ---
 layout: front-page
 title: "Hello World!"
-description: "Lindsay's Dev Space site, links to blog and GitHub repos."
+description: "Lindsay's Dev Space site, links to blog and GitHub repos. This dev space is all about me tinkering, testing and considering code."
 keywords: ['blog', 'javascript', 'python', 'software development']
 preview: true
 preview-image: /assets/images/pages/site-preview.jpg
