@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Why Programming Languages Die"
-thumbnail: [/assets/images/posts/rip.jpg, "image of a gravestone"] 
+thumbnail: [/assets/images/posts/rip.jpg, "image of a gravestone"]
+description: "A blog post considering why some programming languages die and some survive"
+preview: true
 ---
 
 {% include post-image.html link="/assets/images/posts/rip.jpg" alt="image of a gravestone" %}
