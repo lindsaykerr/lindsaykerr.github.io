@@ -1,7 +1,7 @@
 ---
 title: "Pong Clone"
 active: false 
-link: https://github.com/wrenzenzen/pong-clone
+link: https://github.com/lindsaykerr/pong-clone
 year-span: "2020"
 tech: ["Java", "JavaFx"]
 ---

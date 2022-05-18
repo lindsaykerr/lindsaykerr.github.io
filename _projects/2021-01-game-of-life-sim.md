@@ -1,7 +1,7 @@
 ---
 title: "Game of Life Simulator"
 active: false 
-link: https://github.com/wrenzenzen/game-of-life-simulation
+link: https://github.com/lindsaykerr/game-of-life-simulation
 year-span: "2021"
 tech: ["Python"]
 ---

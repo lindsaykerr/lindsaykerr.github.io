@@ -1,7 +1,7 @@
 ---
 title: "Priority List web app"
 active: true 
-link: https://github.com/wrenzenzen/priority-list-app
+link: https://github.com/lindsaykerr/priority-list-app
 year-span: "2022"
 tech: ["JavaScript"]
 ---

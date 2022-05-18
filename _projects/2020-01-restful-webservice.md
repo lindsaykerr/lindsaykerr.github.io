@@ -1,7 +1,7 @@
 ---
 title: "A RESTful Sensor Data Web Service "
 active: false 
-link: https://github.com/wrenzenzen/restful-sensor-data-web-service
+link: https://github.com/lindsaykerr/restful-sensor-data-web-service
 year-span: "2020"
 tech: ["Python", "Flask", "MongoDB"]
 ---

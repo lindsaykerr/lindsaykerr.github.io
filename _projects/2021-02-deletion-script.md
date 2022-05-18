@@ -1,7 +1,7 @@
 ---
 title: "Python script for deleting copies of files"
 active: false 
-link: https://github.com/wrenzenzen/python-delete-file-duplications
+link: https://github.com/lindsaykerr/python-delete-file-duplications
 year-span: "2021-2022"
 tech: ["Python"]
 ---

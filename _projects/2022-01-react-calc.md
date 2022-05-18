@@ -1,7 +1,7 @@
 ---
 title: "A simple React.js calculator"
 active: false 
-link: https://github.com/wrenzenzen/simple-calculator-project
+link: https://github.com/lindsaykerr/simple-calculator-project
 year-span: "2021-2022"
 tech: ["ReactJs", "TypeScript", "CSS"]
 ---
